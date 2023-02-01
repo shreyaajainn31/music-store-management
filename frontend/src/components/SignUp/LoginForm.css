@@ -1,0 +1,21 @@
+.sign-up h2{
+    text-align: center;
+    color:purple;
+}
+
+.sign-up form{
+    align-self: center;
+    justify-content: center;
+    margin-left: 43rem;
+}
+
+.sign-up sign{
+    align-self: center;
+    justify-content: center;
+    display: flex;    
+}
+
+.sign-up{
+    background: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
