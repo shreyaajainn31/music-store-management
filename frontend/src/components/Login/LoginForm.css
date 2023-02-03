@@ -1,13 +1,15 @@
 .sign-up h2{
     text-align: center;
     color:purple;
+
 }
 
 .sign-up form{
     align-self: center;
     justify-content: center;
-    margin-left: 43rem;
+    margin-left: 23rem;
     box-sizing: border-box;
+    margin-top: 2rem;
 }
 
 .sign-up sign{
@@ -21,9 +23,13 @@
     background: beige;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 1px thistle solid;
+    padding:0;
+    width:60rem;
     box-sizing: border-box;
-    width: 100%;
     padding: 5px;
+    margin-left: 20rem;
+    margin-top: 13rem;
+    height:15rem;
 
 }
 

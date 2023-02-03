@@ -12,9 +12,11 @@ function Navbar(){
             <ul className = 'items'>
               <li className = 'logo'> <Link to = "/home"> <img src = {Logo}/> </Link></li> 
               <li> <Link to = "/about">About</Link></li> 
-              <li> <Link to = "/contact"> Contact Us</Link></li> 
+               
               <li> <Link to= "/music"> Music</Link></li> 
               <li> <Link to = "/yourmusic">Your Music </Link></li> 
+              <li> <Link to = "/contact"> Contact Us</Link></li>
+              <li> <Link to = "/"> Sign out </Link></li>
             </ul>
             </nav>
         </div>
