@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, useNavigate } from 'react-router-dom';
 import './Navbar.css';
+import Logo from "./logo.png";
 
 function Navbar(){
     const navigate = useNavigate();
@@ -9,7 +10,7 @@ function Navbar(){
         <div >
             <nav className = 'navbar'>
             <ul className = 'items'>
-              <li> <Link to = "/home"> Logo </Link></li> 
+              <li className = 'logo'> <Link to = "/home"> <img src = {Logo}/> </Link></li> 
               <li> <Link to = "/about">About</Link></li> 
               <li> <Link to = "/contact"> Contact Us</Link></li> 
               <li> <Link to= "/music"> Music</Link></li> 

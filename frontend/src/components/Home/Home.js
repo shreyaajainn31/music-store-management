@@ -1,5 +1,5 @@
 import React from "react";
-// import {Link} from "react-router-dom";
+import Image from "./music.jpeg";
 import './Home.css'
 import Navbar from "../Navbar/Navbar";
 function Home(){
@@ -9,6 +9,7 @@ function Home(){
             <Navbar/>
             <div className= 'body'>
                 <h2>Welcome to Home</h2>
+                <img src = {Image}/>
             </div>
         </div>
 
