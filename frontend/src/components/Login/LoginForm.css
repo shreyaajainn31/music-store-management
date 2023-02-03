@@ -7,15 +7,23 @@
     align-self: center;
     justify-content: center;
     margin-left: 43rem;
+    box-sizing: border-box;
 }
 
 .sign-up sign{
     align-self: center;
     justify-content: center;
-    display: flex;    
+    display: flex;
+    box-sizing: border-box;    
 }
 
 .sign-up{
     background: beige;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px thistle solid;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+
 }
+
